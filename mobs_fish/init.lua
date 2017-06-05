@@ -58,6 +58,9 @@ local SPRITE_VERSION = false	-- set to true to use upright sprites instead of me
 		fly_in = "default:water_source",
 		fall_speed = 0,
 		view_range = 8,
+		drops = {
+				{name = "lottmobs:fish_raw", chance = 1, min = 1, max = 1},
+				},
 		water_damage = 0,
 		lava_damage = 5,
 		light_damage = 0,
@@ -89,6 +92,9 @@ local SPRITE_VERSION = false	-- set to true to use upright sprites instead of me
 		fly_in = "default:water_source",
 		fall_speed = 0,
 		view_range = 8,
+		drops = {
+				{name = "lottmobs:fish_raw", chance = 1, min = 1, max = 1},
+				},
 		water_damage = 0,
 		lava_damage = 5,
 		light_damage = 0,
